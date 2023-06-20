@@ -1,0 +1,564 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap');
+
+    * {
+        margin: 0;
+        font-family: 'Outfit', sans-serif;
+        text-decoration: none;
+        color: #292929;
+    }
+
+    body{
+        background-color: #E7E7E7;
+    }
+
+    aside{
+            width: 300px;
+            height: 100vh;
+            position: fixed;
+            top:0;
+            bottom: 0;
+            right: -300px;
+            background-color: #6D665E;
+            z-index: 999;
+            
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .xbox{
+            width: 300px;
+            height: 100px;
+        }
+
+        .ximg{
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        .menu3{
+            width: 225px;
+            height: 230px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 120px;
+        }
+
+        .menu3 a{
+            color: white;
+            text-align: right;
+            font-size: 18px;
+            font-weight: 200;
+            margin-bottom: 20px;
+        }
+
+       .menu3 a:hover {
+          font-weight: 600;
+        }
+
+        .user{
+            width: 200px;
+            height: 130px;
+            border-top: solid 1px white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .mypageicon{
+           margin-right: 20px;
+        }
+
+
+/*    네비s*/
+
+    nav {
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        padding: 30px 70px;
+    }
+
+    .navbar {
+        margin-right: auto;
+    }
+
+    .logo {
+        width: 260px;
+    }
+
+    .menu1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu1 a{
+        color: #292929;
+        margin-right: 20px;
+        font-weight: 400;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .ham {
+        margin-left: 20px;
+    }
+
+    .about:hover{
+        font-weight: 500;
+        scale: 1.1;
+    }
+
+    .login:hover{
+        font-weight: 500;
+        scale: 1.1;
+    }
+
+/*    네비e*/
+
+/*섹션1*/
+
+    .buy {
+        display: flex;
+        align-items: center;
+    }
+
+    .mainimg {
+        background-image: url('https://i.postimg.cc/3NMc3HpJ/mainimg.png');
+        background-size: cover;
+        background-position: center;
+        width: 38.5vw;
+        height: 810px;
+        opacity: 0;
+    }
+
+    .mainbox{
+        height: 810px;
+        width: 61.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .sig {
+        margin-bottom: 5px;
+    }
+
+    .sig p {
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .title {
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .title h1 {
+        font-size: 42px;
+        font-weight: 600;
+        margin-right: 125px;
+    }
+
+    .title p {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .detail p {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 1.5;
+    }
+
+    .colormini{
+        height: 127px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+         justify-content: center;
+        margin: 0;
+        background-color: #ffffff90;
+        margin: 25px 0 50px 0;
+        opacity: 0;
+    }
+
+    .colormini img{
+        width: 124px;
+    }
+
+    .colormini p{
+        font-size: 12px;
+        font-weight: 300;
+        margisn: 5px 0 0 0;
+        color: #292929;
+    }
+
+    .minimg{
+       opacity: 0;
+    }
+
+
+
+    .buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    .op{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .op select {
+        background-color: #6D665E;
+        color: #F0F0EF;
+        font-size: 18px;
+        font-weight: 300;
+        margin-right: 36px;
+        padding: 6px;
+        width: 300px;
+        height: 35px;
+        border-style: none;
+        border-radius: 3px;
+    }
+
+    .color{
+        margin-bottom: 15px;
+    }
+
+    .cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #6D665E;
+        color: #F0F0EF;
+        width: 300px;
+        height: 85px;
+        border-radius: 3px;
+    }
+
+    .cart:hover{
+        scale: 1.05;
+        box-shadow: 0px 0px 3px #00000070;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .cart h2{
+        color: #F0F0EF;
+        font-weight: 300;
+        font-size: 22px;
+
+    }
+
+    .cartimg {
+        width: 20px;
+        margin-left: 10px;
+    }
+/*섹션1e*/
+
+/*섹션2*/
+
+.sec2{
+    background-image: url('https://i.postimg.cc/1R04ZK5h/sec2-2.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 765px;
+    position: relative;
+}
+
+.roundlogo{
+    scale: 1.2;
+    display: flex;
+    position: absolute;
+    left: 130px;
+    bottom: 110px;
+    transition: all 1s ease;
+    transform: rotate(0deg);
+    opacity: 0;
+}
+
+.sec2txt{
+    width: 700px;
+    height: 215px;
+    padding-left: 250px;
+    padding-top: 200px;
+}
+
+.txtbox1{
+    margin-bottom: 30px;
+}
+
+.txtbox1 p{
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.txtbox2 h3{
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.txtbox2 h4{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+/*섹션2e*/
+
+/*섹션3*/
+
+.colorlist{
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorlist p{
+    font-size: 18px;
+    font font-weight: 300;
+}
+
+.colorimg1{
+    width: 200px;
+}
+
+.cibox{
+    text-align: center;
+    width: 220px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.B23{
+    margin: 0;
+}
+
+.colorinfo{
+    text-align: center;
+    width: 100vw;
+    height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.colorinfo h5{
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.colorinfo p{
+    font-weight: 200;
+    font-size: 46px;
+}
+
+.colorimg2{
+    background-image: url('https://i.postimg.cc/KvVv1Cgd/colorimg2.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 1315px;
+}
+
+/*섹션3e    */
+
+/*섹션4*/
+
+.blank{
+    width: 100vw;
+    height: 428px;
+    background-image: url('https://i.postimg.cc/nz1xFPv9/marks.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #6D665E;
+}
+
+.sec4box{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    position: relative;
+}
+
+.skinimg{
+    width: 654px;
+    height: 756px;
+    background-image: url('https://i.postimg.cc/q7SwtJx9/badskin.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.announ{
+    width: 654px;
+    height: 756px;
+    background-color: #ffffff80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.announ p{
+    font-weight: 200;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.skinimg:hover .announ{
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.skinimg:hover .goodskin{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.goodskin{
+    width: 0px;
+    max-width: 654px;
+    height: 756px;
+    background-image: url('https://i.postimg.cc/VLWx1Dht/goodskin.png');
+    background-repeat: no-repeat;
+    background-size: auto 756px;
+    background-position: fixed;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    border-right: 1.2px solid white;
+    cursor: url("cursor.png"), auto;
+}
+
+
+.infobox{
+    width: 786px;
+    height: 508px;
+    margin-left: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec4info h6{
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.sec4info p{
+    font-weight: 200;
+    font-size: 26px;
+}
+
+.sec5{
+    width: 100vw;
+    height: 830px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.sec5img1{
+    background-image: url('https://i.postimg.cc/4dsh8nsC/2022-JDWF2-03-jpg.png');
+    background-size: cover;
+    background-position: center;
+    width: 821px;
+    height: 640px;
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+
+.sec5img2{
+    background-image: url('https://i.postimg.cc/hGrGtsWw/2022-JDWF2-01-jpg.png');
+    background-size: cover;
+    background-position: center;
+    width: 574px;
+    height: 831px;
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+
+.lasttxt{
+    width: 100vw;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.lasttxt h6{
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.lasttxt p{
+    font-weight: 200;
+    font-size: 42px;
+}
+
+/*섹션4e*/
+
+footer{
+    
+    height: 300px;
+    background-image: url('https://i.postimg.cc/HLgk4K9j/footer.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #34312C;
+    padding: 70px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu2{
+     padding: 0;
+     margin-bottom: 45px;
+}
+
+.menu2 a{
+    color: #C2C1C0;
+    font-weight: 300;
+    font-size: 22px;
+    margin-right: 30px;
+}
+
+.foot2{
+    margin-bottom: 45px;
+}
+
+.foot2 p{
+    color: #C2C1C0;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.foot3 p{
+    color: #C2C1C0;
+    font-weight: 200;
+    font-size: 14px;
+}
+
